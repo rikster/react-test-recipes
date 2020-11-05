@@ -7,6 +7,7 @@ export default function Toggle(props) {
             onClick={() => {
                 setState(previousState => !previousState);
                 props.onChange(!state);
+
             }}
             data-testid="toggle"
         >
