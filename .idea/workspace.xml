@@ -20,20 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e45cb392-e5f5-4366-8b77-2c56e09b80d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/hello.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/contact.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="main" />
@@ -64,17 +68,17 @@
       <recent name="C:\xampp\htdocs\sandbox\react-test-recipes\src\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.renders with or without a name (1)">
-    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.should render contact information">
+    <configuration name="renders user data" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-file value="$PROJECT_DIR$/src/tests/user.test.js" />
       <test-names>
-        <test-name value="renders learn react link" />
+        <test-name value="renders user data" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -104,14 +108,17 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+    <configuration name="should render contact information" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/contact.test.js" />
+      <test-names>
+        <test-name value="should render contact information" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -125,19 +132,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.renders learn react link" />
-      <item itemvalue="npm.test" />
-      <item itemvalue="npm.start" />
       <item itemvalue="Jest.renders with or without a name" />
       <item itemvalue="Jest.renders with or without a name (1)" />
+      <item itemvalue="Jest.renders user data" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="Jest.should render contact information" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.test" />
+        <item itemvalue="Jest.should render contact information" />
+        <item itemvalue="Jest.renders user data" />
         <item itemvalue="Jest.renders with or without a name (1)" />
         <item itemvalue="Jest.renders with or without a name" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="Jest.renders learn react link" />
       </list>
     </recent_temporary>
   </component>
@@ -150,8 +157,31 @@
       <option name="presentableId" value="Default" />
       <updated>1604466553860</updated>
       <workItem from="1604466555107" duration="3311000" />
-      <workItem from="1604473509508" duration="1868000" />
+      <workItem from="1604473509508" duration="4151000" />
+      <workItem from="1604531028942" duration="3267000" />
     </task>
+    <task id="LOCAL-00001" summary="test hello update">
+      <created>1604477911163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604477911163</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CRA cleanup">
+      <created>1604477983950</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604477983950</updated>
+    </task>
+    <task id="LOCAL-00003" summary="user dummy api call">
+      <created>1604478715225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604478715225</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,12 +197,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test hello update" />
+    <MESSAGE value="CRA cleanup" />
+    <MESSAGE value="user dummy api call" />
+    <option name="LAST_COMMIT_MESSAGE" value="user dummy api call" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604466915963">
+    <state x="414" y="174" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604478606993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604466915963" />
+    <state x="414" y="174" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604478606993" />
     <state x="733" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604474626727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,25 +218,97 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604475294471" />
+    <state width="426" height="466" key="DebuggerActiveHint" timestamp="1604532259582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="426" height="466" key="DebuggerActiveHint/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532259582" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604474124783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604474124783" />
-    <state width="1899" height="209" key="GridCell.Tab.0.bottom" timestamp="1604475206668">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1604534355116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="209" key="GridCell.Tab.0.bottom/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604475206668" />
-    <state width="1899" height="209" key="GridCell.Tab.0.center" timestamp="1604475206667">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604534355116" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1604534355116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="209" key="GridCell.Tab.0.center/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604475206667" />
-    <state width="1899" height="209" key="GridCell.Tab.0.left" timestamp="1604475206667">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604534355116" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1604534355116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="209" key="GridCell.Tab.0.left/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604475206667" />
-    <state width="1899" height="209" key="GridCell.Tab.0.right" timestamp="1604475206667">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604534355116" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1604534355116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="209" key="GridCell.Tab.0.right/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604475206667" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604534355116" />
+    <state width="1877" height="216" key="GridCell.Tab.1.bottom" timestamp="1604532755320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.1.bottom/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755320" />
+    <state width="1877" height="216" key="GridCell.Tab.1.center" timestamp="1604532755319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.1.center/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755319" />
+    <state width="1877" height="216" key="GridCell.Tab.1.left" timestamp="1604532755319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.1.left/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755319" />
+    <state width="1877" height="216" key="GridCell.Tab.1.right" timestamp="1604532755319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.1.right/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755319" />
+    <state width="1877" height="216" key="GridCell.Tab.2.bottom" timestamp="1604532755320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.2.bottom/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755320" />
+    <state width="1877" height="216" key="GridCell.Tab.2.center" timestamp="1604532755320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.2.center/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755320" />
+    <state width="1877" height="216" key="GridCell.Tab.2.left" timestamp="1604532755320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.2.left/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755320" />
+    <state width="1877" height="216" key="GridCell.Tab.2.right" timestamp="1604532755320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.2.right/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755320" />
+    <state width="1877" height="216" key="GridCell.Tab.3.bottom" timestamp="1604532755321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.3.bottom/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755321" />
+    <state width="1877" height="216" key="GridCell.Tab.3.center" timestamp="1604532755321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.3.center/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755321" />
+    <state width="1877" height="216" key="GridCell.Tab.3.left" timestamp="1604532755320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.3.left/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755320" />
+    <state width="1877" height="216" key="GridCell.Tab.3.right" timestamp="1604532755321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="216" key="GridCell.Tab.3.right/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604532755321" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1604478717340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604478717340" />
+    <state x="615" y="231" width="587" height="534" key="find.popup" timestamp="1604475432054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="615" y="231" width="587" height="534" key="find.popup/-2560.300.1463.800/1920.20.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1604475432054" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/tests/user.test.js</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
